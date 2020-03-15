@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,25 @@
 		133FC27524085EBE00D18DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133FC27324085EBE00D18DB2 /* LaunchScreen.storyboard */; };
 		133FC28024085EBE00D18DB2 /* projectClimbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC27F24085EBE00D18DB2 /* projectClimbingTests.swift */; };
 		133FC28B24085EBE00D18DB2 /* projectClimbingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC28A24085EBE00D18DB2 /* projectClimbingUITests.swift */; };
+		133FC2992408686100D18DB2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC2982408686100D18DB2 /* SignUpViewController.swift */; };
+		133FC29B2408686E00D18DB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC29A2408686E00D18DB2 /* LoginViewController.swift */; };
+		133FC29D2408687A00D18DB2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC29C2408687A00D18DB2 /* HomeViewController.swift */; };
+		133FC2A1240966DD00D18DB2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC2A0240966DD00D18DB2 /* Utilities.swift */; };
+		133FC2A3240966EA00D18DB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133FC2A2240966EA00D18DB2 /* Constants.swift */; };
+		13B633F02413CF2500500525 /* climbingHomescreen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 13B633EF2413CF2500500525 /* climbingHomescreen.mp4 */; };
+		13B633FA241662EF00500525 /* ClimbingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B633F9241662EF00500525 /* ClimbingViewController.swift */; };
+		13B633FC2416843500500525 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B633FB2416843500500525 /* WorkoutViewController.swift */; };
+		13B633FE2416927400500525 /* Stopsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13B633FD2416927400500525 /* Stopsound.mp3 */; };
+		13B6340224178A4600500525 /* LogTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6340124178A4600500525 /* LogTrainingViewController.swift */; };
+		13B634302417DD1900500525 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B6342F2417DD1800500525 /* GoogleService-Info.plist */; };
+		13B634312417DD1900500525 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B6342F2417DD1800500525 /* GoogleService-Info.plist */; };
+		13B634322417DD1900500525 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B6342F2417DD1800500525 /* GoogleService-Info.plist */; };
+		13B634342419038000500525 /* LogTraning2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B634332419037F00500525 /* LogTraning2ViewController.swift */; };
+		13B63438241A419900500525 /* ClimbingCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B63437241A419900500525 /* ClimbingCellTableViewCell.swift */; };
+		13B6343D241BC42A00500525 /* Climbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B6343C241BC42A00500525 /* Climbs.swift */; };
+		26D491CF441B6EECA1522D59 /* Pods_projectClimbingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1E365801D80CD3F401DA5A /* Pods_projectClimbingTests.framework */; };
+		5CB785158D864211EA8832B7 /* Pods_projectClimbing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2746D4BED4FBCB160398C8 /* Pods_projectClimbing.framework */; };
+		CFFAB8AAE790C8FEC2789F5E /* Pods_projectClimbing_projectClimbingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCC4255D5686DBAE3F4FA5E /* Pods_projectClimbing_projectClimbingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,29 @@
 		133FC28624085EBE00D18DB2 /* projectClimbingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectClimbingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133FC28A24085EBE00D18DB2 /* projectClimbingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectClimbingUITests.swift; sourceTree = "<group>"; };
 		133FC28C24085EBE00D18DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133FC2982408686100D18DB2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		133FC29A2408686E00D18DB2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		133FC29C2408687A00D18DB2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		133FC2A0240966DD00D18DB2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		133FC2A2240966EA00D18DB2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		13B633EF2413CF2500500525 /* climbingHomescreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = climbingHomescreen.mp4; sourceTree = "<group>"; };
+		13B633F9241662EF00500525 /* ClimbingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingViewController.swift; sourceTree = "<group>"; };
+		13B633FB2416843500500525 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		13B633FD2416927400500525 /* Stopsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stopsound.mp3; sourceTree = "<group>"; };
+		13B6340124178A4600500525 /* LogTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTrainingViewController.swift; sourceTree = "<group>"; };
+		13B6342F2417DD1800500525 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13B634332419037F00500525 /* LogTraning2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTraning2ViewController.swift; sourceTree = "<group>"; };
+		13B63437241A419900500525 /* ClimbingCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingCellTableViewCell.swift; sourceTree = "<group>"; };
+		13B6343C241BC42A00500525 /* Climbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Climbs.swift; sourceTree = "<group>"; };
+		19F98EC8B91CFD1E13A6C0F1 /* Pods-projectClimbing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbing.debug.xcconfig"; path = "Target Support Files/Pods-projectClimbing/Pods-projectClimbing.debug.xcconfig"; sourceTree = "<group>"; };
+		1B1E365801D80CD3F401DA5A /* Pods_projectClimbingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectClimbingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCC4255D5686DBAE3F4FA5E /* Pods_projectClimbing_projectClimbingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectClimbing_projectClimbingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B3EBA9A51654FAF5CBFC7E /* Pods-projectClimbing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbing.release.xcconfig"; path = "Target Support Files/Pods-projectClimbing/Pods-projectClimbing.release.xcconfig"; sourceTree = "<group>"; };
+		68A7531A1D7F624579176F94 /* Pods-projectClimbing-projectClimbingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbing-projectClimbingUITests.release.xcconfig"; path = "Target Support Files/Pods-projectClimbing-projectClimbingUITests/Pods-projectClimbing-projectClimbingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F2746D4BED4FBCB160398C8 /* Pods_projectClimbing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projectClimbing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8ABADDBDAAB9A4309F4CA5 /* Pods-projectClimbingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbingTests.debug.xcconfig"; path = "Target Support Files/Pods-projectClimbingTests/Pods-projectClimbingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F3ED1A2114D26819156905 /* Pods-projectClimbingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbingTests.release.xcconfig"; path = "Target Support Files/Pods-projectClimbingTests/Pods-projectClimbingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA7185DB03E7CB0691167B2C /* Pods-projectClimbing-projectClimbingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectClimbing-projectClimbingUITests.debug.xcconfig"; path = "Target Support Files/Pods-projectClimbing-projectClimbingUITests/Pods-projectClimbing-projectClimbingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB785158D864211EA8832B7 /* Pods_projectClimbing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D491CF441B6EECA1522D59 /* Pods_projectClimbingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFAB8AAE790C8FEC2789F5E /* Pods_projectClimbing_projectClimbingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +128,8 @@
 				133FC27E24085EBE00D18DB2 /* projectClimbingTests */,
 				133FC28924085EBE00D18DB2 /* projectClimbingUITests */,
 				133FC26624085EBA00D18DB2 /* Products */,
+				8D29F320EED088A1389B09AB /* Pods */,
+				33F2F257BA7845EE2B2691B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +148,13 @@
 			children = (
 				133FC26824085EBA00D18DB2 /* AppDelegate.swift */,
 				133FC26A24085EBA00D18DB2 /* SceneDelegate.swift */,
-				133FC26C24085EBA00D18DB2 /* ViewController.swift */,
-				133FC26E24085EBA00D18DB2 /* Main.storyboard */,
+				13B6342F2417DD1800500525 /* GoogleService-Info.plist */,
+				133FC29F240966CA00D18DB2 /* Helpers */,
+				133FC29E2408688000D18DB2 /* ViewControllers */,
 				133FC27124085EBE00D18DB2 /* Assets.xcassets */,
-				133FC27324085EBE00D18DB2 /* LaunchScreen.storyboard */,
+				13B63439241A922000500525 /* Storyboards */,
 				133FC27624085EBE00D18DB2 /* Info.plist */,
+				13B633EE2413CD8400500525 /* Media */,
 			);
 			path = projectClimbing;
 			sourceTree = "<group>";
@@ -128,6 +177,73 @@
 			path = projectClimbingUITests;
 			sourceTree = "<group>";
 		};
+		133FC29E2408688000D18DB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				133FC26C24085EBA00D18DB2 /* ViewController.swift */,
+				133FC2982408686100D18DB2 /* SignUpViewController.swift */,
+				133FC29A2408686E00D18DB2 /* LoginViewController.swift */,
+				133FC29C2408687A00D18DB2 /* HomeViewController.swift */,
+				13B633F9241662EF00500525 /* ClimbingViewController.swift */,
+				13B6343C241BC42A00500525 /* Climbs.swift */,
+				13B63437241A419900500525 /* ClimbingCellTableViewCell.swift */,
+				13B633FB2416843500500525 /* WorkoutViewController.swift */,
+				13B6340124178A4600500525 /* LogTrainingViewController.swift */,
+				13B634332419037F00500525 /* LogTraning2ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		133FC29F240966CA00D18DB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				133FC2A0240966DD00D18DB2 /* Utilities.swift */,
+				133FC2A2240966EA00D18DB2 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		13B633EE2413CD8400500525 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				13B633FD2416927400500525 /* Stopsound.mp3 */,
+				13B633EF2413CF2500500525 /* climbingHomescreen.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		13B63439241A922000500525 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				133FC27324085EBE00D18DB2 /* LaunchScreen.storyboard */,
+				133FC26E24085EBA00D18DB2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		33F2F257BA7845EE2B2691B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2746D4BED4FBCB160398C8 /* Pods_projectClimbing.framework */,
+				1CCC4255D5686DBAE3F4FA5E /* Pods_projectClimbing_projectClimbingUITests.framework */,
+				1B1E365801D80CD3F401DA5A /* Pods_projectClimbingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D29F320EED088A1389B09AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F98EC8B91CFD1E13A6C0F1 /* Pods-projectClimbing.debug.xcconfig */,
+				44B3EBA9A51654FAF5CBFC7E /* Pods-projectClimbing.release.xcconfig */,
+				CA7185DB03E7CB0691167B2C /* Pods-projectClimbing-projectClimbingUITests.debug.xcconfig */,
+				68A7531A1D7F624579176F94 /* Pods-projectClimbing-projectClimbingUITests.release.xcconfig */,
+				7A8ABADDBDAAB9A4309F4CA5 /* Pods-projectClimbingTests.debug.xcconfig */,
+				A7F3ED1A2114D26819156905 /* Pods-projectClimbingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133FC28F24085EBE00D18DB2 /* Build configuration list for PBXNativeTarget "projectClimbing" */;
 			buildPhases = (
+				2B4CCCF037B7F7ED6B1EDD7A /* [CP] Check Pods Manifest.lock */,
 				133FC26124085EBA00D18DB2 /* Sources */,
 				133FC26224085EBA00D18DB2 /* Frameworks */,
 				133FC26324085EBA00D18DB2 /* Resources */,
+				98CB5B603BE5C19971E70030 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133FC29224085EBE00D18DB2 /* Build configuration list for PBXNativeTarget "projectClimbingTests" */;
 			buildPhases = (
+				DB286801324C378CE3977132 /* [CP] Check Pods Manifest.lock */,
 				133FC27724085EBE00D18DB2 /* Sources */,
 				133FC27824085EBE00D18DB2 /* Frameworks */,
 				133FC27924085EBE00D18DB2 /* Resources */,
+				D6995A29FDA250E623A26B04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133FC29524085EBE00D18DB2 /* Build configuration list for PBXNativeTarget "projectClimbingUITests" */;
 			buildPhases = (
+				3518BEE4AF3AC130DC1FACB9 /* [CP] Check Pods Manifest.lock */,
 				133FC28224085EBE00D18DB2 /* Sources */,
 				133FC28324085EBE00D18DB2 /* Frameworks */,
 				133FC28424085EBE00D18DB2 /* Resources */,
+				45D370FB1178B0BD2C7FCAA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				133FC27524085EBE00D18DB2 /* LaunchScreen.storyboard in Resources */,
+				13B633F02413CF2500500525 /* climbingHomescreen.mp4 in Resources */,
+				13B633FE2416927400500525 /* Stopsound.mp3 in Resources */,
 				133FC27224085EBE00D18DB2 /* Assets.xcassets in Resources */,
+				13B634302417DD1900500525 /* GoogleService-Info.plist in Resources */,
 				133FC27024085EBA00D18DB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B634312417DD1900500525 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +375,151 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B634322417DD1900500525 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4CCCF037B7F7ED6B1EDD7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectClimbing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3518BEE4AF3AC130DC1FACB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectClimbing-projectClimbingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D370FB1178B0BD2C7FCAA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbing-projectClimbingUITests/Pods-projectClimbing-projectClimbingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbing-projectClimbingUITests/Pods-projectClimbing-projectClimbingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-projectClimbing-projectClimbingUITests/Pods-projectClimbing-projectClimbingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98CB5B603BE5C19971E70030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbing/Pods-projectClimbing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbing/Pods-projectClimbing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-projectClimbing/Pods-projectClimbing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6995A29FDA250E623A26B04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbingTests/Pods-projectClimbingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-projectClimbingTests/Pods-projectClimbingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-projectClimbingTests/Pods-projectClimbingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB286801324C378CE3977132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectClimbingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		133FC26124085EBA00D18DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B6340224178A4600500525 /* LogTrainingViewController.swift in Sources */,
+				13B633FA241662EF00500525 /* ClimbingViewController.swift in Sources */,
 				133FC26D24085EBA00D18DB2 /* ViewController.swift in Sources */,
+				13B633FC2416843500500525 /* WorkoutViewController.swift in Sources */,
 				133FC26924085EBA00D18DB2 /* AppDelegate.swift in Sources */,
+				133FC2A1240966DD00D18DB2 /* Utilities.swift in Sources */,
+				13B63438241A419900500525 /* ClimbingCellTableViewCell.swift in Sources */,
+				133FC2992408686100D18DB2 /* SignUpViewController.swift in Sources */,
+				133FC29B2408686E00D18DB2 /* LoginViewController.swift in Sources */,
+				13B6343D241BC42A00500525 /* Climbs.swift in Sources */,
+				13B634342419038000500525 /* LogTraning2ViewController.swift in Sources */,
 				133FC26B24085EBA00D18DB2 /* SceneDelegate.swift in Sources */,
+				133FC29D2408687A00D18DB2 /* HomeViewController.swift in Sources */,
+				133FC2A3240966EA00D18DB2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +690,7 @@
 		};
 		133FC29024085EBE00D18DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F98EC8B91CFD1E13A6C0F1 /* Pods-projectClimbing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +708,7 @@
 		};
 		133FC29124085EBE00D18DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B3EBA9A51654FAF5CBFC7E /* Pods-projectClimbing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +726,7 @@
 		};
 		133FC29324085EBE00D18DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8ABADDBDAAB9A4309F4CA5 /* Pods-projectClimbingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +748,7 @@
 		};
 		133FC29424085EBE00D18DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F3ED1A2114D26819156905 /* Pods-projectClimbingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +770,7 @@
 		};
 		133FC29624085EBE00D18DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7185DB03E7CB0691167B2C /* Pods-projectClimbing-projectClimbingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +790,7 @@
 		};
 		133FC29724085EBE00D18DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A7531A1D7F624579176F94 /* Pods-projectClimbing-projectClimbingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
