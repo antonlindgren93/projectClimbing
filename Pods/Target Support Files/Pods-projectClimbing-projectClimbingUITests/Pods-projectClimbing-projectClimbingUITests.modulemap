@@ -1,0 +1,6 @@
+framework module Pods_projectClimbing_projectClimbingUITests {
+  umbrella header "Pods-projectClimbing-projectClimbingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
